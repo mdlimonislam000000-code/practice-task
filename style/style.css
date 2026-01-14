@@ -103,14 +103,79 @@ a{
 
 /* first main content end */
 
+/* middle content style start */
+
+.first-container{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 50px;
+}
+.card-container{
+    margin-top: 30px;
+}
+.text-container h4{
+    font-size: 2.8rem;
+    max-width: 460px;
+    border-left: 5px solid #FF900E;
+    margin-bottom: 22px;
+    padding-left: 20px;
+    color: #131313;
+}
+.text-container p{
+    max-width: 580px;
+    line-height: 26px;
+    color: #424242;
+}
+.text-card{
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: 0 3px 20px 3px #727272;
+    padding: 25px ;
+}
+.text-card h5{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #131313;
+    max-width: 285px;
+}
+.text-card p{
+    max-width: 514px;
+    color: #727272;
+}
+.image-container{
+    max-width: 800px;
+    margin-top: 170px;
+    margin-left: 140px;
+}
+.button-4th{
+    background-color: #FF900E;
+    padding: 45px 50px;
+    margin-left: -100px;
+    margin-top: -100px;
+    border: none;
+    border-radius: 10px;
+}
+.first-span{
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.second-span{
+    color: #FFFFFF;
+    font-size: 1.3rem;
+}
+/* middle content style start */
+
 
 /* header responsive */
 @media screen and (max-width:570px) {
-   .nav, .first-main{
+   .nav, .first-main, .first-container{
     flex-direction: column;
    }
    .nav-button{
-    gap: 19px;
+    gap: 15px;
     margin-top: 10px; 
     margin-right: 50px;
    }
@@ -141,6 +206,20 @@ a{
    }
    .first-description{
     margin-left: 10px;
+   }
+
+     .image-container{
+        margin:0 auto;
+     }
+   .image-container img{
+    width: 100%;
+    margin-right: 25px;
+    margin-top: 5px;
+   }
+   .button-4th{
+    margin-top: 5px;
+    margin: 0 auto;
+    margin-left: 50px;
    }
  
 }
