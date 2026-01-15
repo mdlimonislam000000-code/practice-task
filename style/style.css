@@ -245,7 +245,26 @@ a{
 .sponsers img{
     filter: grayscale(100%);
 }
+/* sponsers end */
 
+
+/* footer start */
+
+.footer-text{
+    max-width: 1440px;
+    
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.footer-text {
+    background-color: #FFF4E7;
+    padding: 38px 410px;
+    font-size: 1.2rem;
+    color: #424242;
+    width: 620px;
+   
+    text-align: center;
+}
 
 
 
@@ -253,6 +272,11 @@ a{
 @media screen and (max-width:570px) {
    .nav, .first-main, .first-container{
     flex-direction: column;
+    
+   }
+   .first-container{
+    align-items: center;
+    justify-content: center;
    }
    .nav-button{
     gap: 15px;
@@ -275,12 +299,6 @@ a{
     max-width: 150px;
     margin-bottom: 15px;
    }
-
-
-
-
-
-
 
    /* first main content responsive start */
    .teams, .bach-container, .sponsers{
@@ -322,5 +340,11 @@ a{
  /*card section resopnsive */
  .some-facts{
     max-width: 300px;
+ }
+ /* footer responsive */
+ .footer-text{
+    width: 320px;
+    padding: 10px 20px;
+    border: 3px solid red;
  }
 }
