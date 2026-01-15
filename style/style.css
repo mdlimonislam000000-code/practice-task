@@ -166,7 +166,59 @@ a{
     color: #FFFFFF;
     font-size: 1.3rem;
 }
-/* middle content style start */
+/* middle content style end */
+
+
+/* some facts content start */
+
+.bach{
+    margin-top: 130px;
+   margin: 0 auto;
+   max-width: 1389px;
+}
+.some-facts h4{
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #131313;
+    margin-bottom: 22px;
+}
+.some-facts{
+    max-width: 542px;
+    color:#727272;
+}
+
+.bach-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 124px;
+    margin-left: 40px;
+}
+.bach-card{
+    border: 2px solid black;
+   border-radius: 10px;
+   height: 240px ;
+   width: 240px;
+}
+.bach-card img{
+    border-radius: 8px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+.bach-card h4{
+    font-size: 2.8rem;
+    text-align: center;
+    margin-top: 5px;
+}
+.bach-card p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -30px;
+    color: #727272;
+}
+
+
 
 
 /* header responsive */
@@ -196,8 +248,10 @@ a{
     margin-bottom: 15px;
    }
 
+
+
    /* first main content responsive start */
-   .teams{
+   .teams, .bach-container{
     grid-template-columns: repeat(1, 1fr);
     gap: 7px;
    }
@@ -205,12 +259,20 @@ a{
     margin: 7px 0;
    }
    .first-description{
-    margin-left: 10px;
+    margin-left: -50px;
+    width: 100%;
+    max-width: 280px;
    }
+  .first-description h3{
+    font-size: 2rem;
+  }
 
      .image-container{
         margin:0 auto;
      }
+    .text-container {
+        max-width: 325px;
+    }
    .image-container img{
     width: 100%;
     margin-right: 25px;
@@ -221,5 +283,8 @@ a{
     margin: 0 auto;
     margin-left: 50px;
    }
- 
+ /*card section resopnsive */
+ .some-facts{
+    max-width: 300px;
+ }
 }
